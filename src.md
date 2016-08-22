@@ -1,5 +1,5 @@
 # Bitcoin não é propriedade privada
-_v. 0.1b_
+_v. 0.1c_
 
 ## Não é um bem fisicamente escasso
 
@@ -23,7 +23,7 @@ Podemos alterar o Bitcoin Mental, onde a população deve se esforçar menos: po
 
 ### Rede informal
 
-No Bitcoin Mental, a rede é formada informalmente por agentes que decidiram, mas sem dar qualquer garantia de, participar dela. Como a blockchain, as chaves privadas e as mensagens de transações são cadeias de símbolos, e nenhuma cadeia é livre de mudanças absolutas e arbitrárias por parte de cada agente. Se um agente quiser esquecer tudo e começar a ignorar as mensagens de transações e as demais mensagens previstas no protocolo que acontecem ao seu redor, é absolutamente livre para fazê-lo. E a _interferência_ é deste agente para com a rede é _nula_ se os outros participantes decidirem ignorar ou recusar as informações comunicadas dele.
+No Bitcoin Mental, a rede é formada informalmente por agentes que decidiram, mas sem dar qualquer garantia de, participar dela. Como a blockchain, as chaves privadas e as mensagens de transações são cadeias de símbolos, não são livres de mudanças absolutas e arbitrárias por parte de cada agente. Se um agente quiser esquecer tudo e começar a ignorar as mensagens de transações e as demais mensagens previstas no protocolo que acontecem ao seu redor, é absolutamente livre para fazê-lo. E a _interferência_ deste agente para com a rede é _nula_ se os outros participantes decidirem ignorar ou recusar as informações comunicadas dele.
 
 Portanto cada agente deve decidir ignorar ou não as informações _não proposicionais_ comunicadas. Caso decida não ignorar, deve decidir arbitrariamente alterar ou não a sua lembrança da blockchain, de acordo com a sua arbitrária interpretação dela e da informação que lhe foi comunicada. Vale lembrar que se este agente pretende não ser ignorado futuramente por outros participantes da rede, ele então provavelmente _decidirá_ interpretar a blockchain e as informações comunicadas de uma _determinada_ maneira.
 
