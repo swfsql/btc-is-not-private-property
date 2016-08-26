@@ -1,33 +1,34 @@
-# Bitcoin não é propriedade privada
+# Bitcoin is not private property
 _v. 0.1c_
 
-## Não é um bem fisicamente escasso
+## Not a physical scarce mean
 
-### Jogo Finito
+### Finite Game
 
-Um _Jogo Finito_ é uma competição de duração finita, por exemplo: dois jogadores devem falar uma palavra válida alternadamente. A cada palavra válida, o placar do jogador é incrementado. Uma palavra inválida incrementa o placar do oponente e termina o jogo. Uma palavra é válida se for única, que comece por uma determinada letra, está definida em um determinado dicionário e se for dita dentro de um determinado limite de tempo.
+A _Finite Game_ is a competition that must end, such as: two players must alternately speak a valid word, incrementing the player's score. An invalid word increases the opponent's score and ends the game. A word is valid if it's unique, starts with a certain letter, exists in a certain dictionary and if is said within a certain time period.
 
-Note que _pensar_ primeiro em uma palavra não a torna propriedade de qualquer jogador. Nem mesmo _anotar_ tais palavras em uma folha de papel muda o status de propriedade daquela palavra. Se um jogador A deixa cair um papel com algumas palavras anotadas e o jogador B olha de relance, ele é livre para usar as palavras que viu escritas. O jogador A não pode usar-se de legítima defesa pois palavras não são escassas, apesar do conjunto das palavras válidas ser finito.
+Note that _thinking_ first in a word does not relate it to the ownership of any player. Not even _writing it down_ on a sheet of paper changes that. If the player A drops a sheet of paper with some valid words written on and then player B takes a glance at it, Player B is free to use them. Player A cant claim he has a right to the use of force because words are not scarce physical means despite the set of all the valid words being finite.
 
-Um elemento de um conjunto finito de cadeias simbólicas _não_ é uma propriedade privada. Uso símbolo para me referir a uma forma abstrata que _deva ser_ _interpretada_ para ter qualquer significado. 
+An element of a finite set of symbolic strings _can't be_ a private property. I refer to symbol as an abstract form that _ought to be_ _interpreted_ in order to have any meaning.
 
-[comment]: # (Vale lembrar que a interpretação é pré-requisito para a argumentação. TODO: explorar.)
+[Comment]: # (Note that the interpretation is a prerequisite for ALL (human) argument AND (human) action:.. Maybe explore that)
 
-### Bitcoin Mental
+[Comment]: # (some feedback points out the definition difference between a finite set and a scarse physical mean.. Maybe explore that)
 
-Um _Bitcoin Mental_ é definido a seguir: uma população consegue manter um sistema de Bitcoin utilizando apenas seus próprios corpos e suas mentes. Os participantes apenas _lembram_ dos dados passados e também os incrementais da blockchain; os cálculos, verificações e execução de protocolos são _realizados de cabeça_; e a transmissão de dados se dá pela _fala ou grito_. Isso é teoricamente possível se a população tivesse uma ótima memória, muita inteligência cognitiva e gargantas poderosas.
+### Mental Bitcoin
 
-Podemos alterar o Bitcoin Mental, onde a população deve se esforçar menos: podem usar papéis para _anotar a blockchain_, usar calculadoras para _agilizar os cálculos_ e telefonar para _otimizar a comunicação_. Com a introdução do computador, deixamos que salvem a blockchain nos discos rígidos, que deixem os cálculos, verificações e execução de protocolos para as unidades de processamento e que realizem a comunicação pela internet. Chegamos ao Bitcoin padrão, apesar da estarmos nos referindo inicialmente ao Bitcoin mental. Sendo assim, ambos os Bitcoins são equivalentes em sua essência, apesar das ferramentas utilizadas para mantê-lo serem mais ou menos apropriadas.
+A _Mental Bitcoin_ is defined as the following: a population can maintain a Bitcoin system using only their own bodies and minds. Participants only _remember_ the past and the incremental blockchain data; calculations, checks and execution protocols are _done inside the mind_; data transmission is transmitted by the _spech_ (or scream). This is theoretically possible if the population had a great memory, a lot of cognitive intelligence and powerful throats.
 
-## Não é contratual
+[Comment]: # (some feedback points out that mind thinking and calculations exist in the physical world, otherwise we are talking about religion.. Maybe explore that)
 
-### Rede informal
+We can change the Mental Bitcoin in order to make it more practical for their users: Let them use papers to _annotate the blockchain_, use calculators to _facilitate the arithmethics oprations_ and do phone calls to _increase the communication's reach_. With the introduction of computers, let the blockchain be saved on the hard drives, the calculations, checks and the implementation of the protocols be left for the processing units and to carry out the communication via the Internet. We get the standard Bitcoin, despite being initially referring to the Mental one. Thus, both Bitcoins are equivalent in essence, although the tools used to keep it running are more (or less) appropriate or practical.
 
-No Bitcoin Mental, a rede é formada informalmente por agentes que decidiram, mas sem dar qualquer garantia de, participar dela. Como a blockchain, as chaves privadas e as mensagens de transações são cadeias de símbolos, não são livres de mudanças absolutas e arbitrárias por parte de cada agente. Se um agente quiser esquecer tudo e começar a ignorar as mensagens de transações e as demais mensagens previstas no protocolo que acontecem ao seu redor, é absolutamente livre para fazê-lo. E a _interferência_ deste agente para com a rede é _nula_ se os outros participantes decidirem ignorar ou recusar as informações comunicadas dele.
+## Not contractual
 
-Portanto cada agente deve decidir ignorar ou não as informações _não proposicionais_ comunicadas. Caso decida não ignorar, deve decidir arbitrariamente alterar ou não a sua lembrança da blockchain, de acordo com a sua arbitrária interpretação dela e da informação que lhe foi comunicada. Vale lembrar que se este agente pretende não ser ignorado futuramente por outros participantes da rede, ele então provavelmente _decidirá_ interpretar a blockchain e as informações comunicadas de uma _determinada_ maneira.
+### Informal Network
 
-[comment]: # (Este tipo de relação entre o agente e a rede é equivalente a um jogo mental, onde a participação é informal, a entrada e saída é livre e quem não obedece determinadas regras são ignorados pelos demais participantes.)
+In the Mental Bitcoin the network is formed informally by individuals who decided to, but without giving any guarantee of, "participate" on it. Since the blockchain, private keys and transaction messages are strings of symbols, they aren't free of absolute and arbitrary changes by each participant. Each one is absolutely free to forget and ignore everything, such as transaction messages (and other messages under the protocol) that happens around. Also, the individual's _interference_ to the network is _null_ if the other participants decide to ignore or deny the information communicated from him/her.
 
+So each individual should decide to ignore (or not) the _non propositional_ information transmitted. If one decides to not ignore, then they must decide to arbitrarily change or not their memory of the blockchain, according to their arbitrary interpretation of it and of the message. Remember that if this individual is not intended to be ignored in the future by other participants in the Bitcoin network, then they probably will _decide_ to interpret the blockchain and information communicated in a _certain_ way.
 
-
+[Comment]: # (This type of relationship between the individual and the network is equivalent to a mental game where participation is informal, entry and exit is free and one who does not obey certain rules can be ignored by other participants.)
