@@ -1,27 +1,44 @@
-Alegoria sobre o Bitcoin
+{
+	[título]
+	Alegoria sobre o Bitcoin
 
-Então, você provavelmente já ouviu falar sobre Bitcoin através dos termos _endereço_, _mineração_, _blocos_, _carteira_, _transação_ e _blockchain_... Neste video eu vou mostrar uma perspectiva diferente.. sobre as mesmas coisas! (no final também veremos as relações entre elas). De qualquer forma, você poderá entender melhor o Bitcoin e ter uma maior familiaridade sobre seu funcionamento. Então, vamos começar.. conhecendo um novo personagem:
+	[Bitcoin]
+	[addr]+[picareta]+[tijolos]+[carteira]+[xxx]+[etc]
+	[perspectiva]+[personagens]+[objetos]
+	ENTÃO, você provavelmente já ouviu falar sobre BITCOIN através de alguns termos como: ENDEREÇO, MINERAÇÃO, BLOCOS, CARTEIRA, TRANSAÇÃO, BLOCKCHAIN ETC... AQUI, veremos por uma outra PERSPECTIVA, a partir de novos PERSONAGENS e alguns OBJETOS.
+}
 
-Este é o Zé. Como ele é meio maluco, na casa dele, ele tem um forno de fundição gigante que consegue derreter ouro.
+{
+	[sala]+[zé]
+	[Zé]+[doido]
+	[../]+[forno]+[ouro]+[ouro escorrendo123]
+	Bem, começamos com ESTE CENÁRIO. É um quarto, do ZÉ. ESSE CARA é meio MALUCO por ter um FORNO gigante dentro de um quarto (vai entender..), que ele usa pra derreter OURO.
+}
 
-Mas Zé também é artista, é cultura. ADORA modelar canos de argila e botar o ouro pra escorrer dentro deles. Então é isso o que ele faz. 
-Fura o caldeirão -> bota uns canos de argila -> e vê o ouro passar por eles.
+{
+	[Zé]+[<3]+[cano]+[ouro escorrendo123]
+	Mas Zé também é artista, é cultura. ADORA modelar CANOS de argila e botar o ouro pra ESCORRER dentro deles. Então é isso o que ele faz. 
+	Fura o caldeirão -> bota uns canos de argila -> e vê o ouro passar por eles.
+}
+
+
 
 Hoje, Zé não tem NADA pra fazer. Entou resolveu modelar uns canos de argila. Mas na hora de fazer a borda, ele teve a ideia: pegou a chave de casa e pressionou contra o molde. O que você acha dessa ideia dele? Ele deixou a borda toda cheio de estilo! Olha só!
 
 Mas daí o Zé percebeu que o próximo cano teria de ter a borda deformada por um molde que ele fazer da chave, senão um cano não ia encaixar no outro. Mas o Zé sentiu orgulho da sua ideia e continuou com ela.
 
-Seu Zé tem seu primeiro fã! Ele queria muito que o Zé colocasse um cano pra ele. Então o Zé respondeu: "me manda uns bagulho que eu ponho sim!". Daí o fã mandou.
+Seu Zé tem um amigo de infância! O João, um chaveiro!
+Ele queria muito que o Zé colocasse um cano pra ele. Então o Zé respondeu: "me manda uns bagulho que eu ponho sim!". Daí o chaveiro mandou, caprichado.
 
-O Zé recebeu duas caixinhas, uma aberta e uma trancada. Na caixinha aberta ele achou três coisas: a chave da outra caixinha, uma foto, que mostra onde o Fã quer colocar o cano dele e também um molde, que serve pra modelar a ponta do cano. Na caixinha trancada só tem uma foto da caixinha aberta.
+O Zé recebeu duas caixinhas, uma aberta e uma trancada. Na caixinha aberta ele achou três coisas: a chave da outra caixinha, uma foto, que mostra onde o João quer colocar o cano dele e também um molde, que serve pra modelar a ponta do cano. Na caixinha trancada só tem uma foto da caixinha aberta.
 
-Mas o Fã avisou o Zé que a caixinha trancada tinha um cadeado especial: tinha uma chave para trancar, e uma outra para destrancar. "Tá de boa", o Fã falou, "te mandei a que destranca".
+Mas o Jão, o chaveiro, avisou o Zé que a caixinha trancada usava um cadeado especial: tinha uma chave para trancar, e uma outra para destrancar. "Tá de boa", o Jão falou, "te mandei a que destranca". "Então tá. Então tá bom" respondeu o Zé.
 
-Então o Zé pega a chave da caixinha aberta, vai na caixinha trancada, destranca, abre, pega a foto e confere se a caixinha aberta é o que está na foto mesmo.
+Então o Zé se senta com as duas caixinhas no colo. Pega a que estava aberta e pega a que chave que está dentro. Usa essa chave para abrir a caixinha trancada. Dentro desta caixinha que ele acabou de destrancar, tem apenas uma foto, que o Jão tirou da caixinha aberta antes de enviar elas para o Zé. "Hum.. que câmera mais vagabunda que ele usou pra tirar essa foto" pensou o Zé, mas consegue ver que a foto é da caixinha aberta mesmo.
 
-Daí ele deixa essa na mesa e volta pra outra caixinha, que ainda tem mais coisa dentro. O Zé ainda vai modelar um cano pro Fã. Sendo um verdadeiro artista, pega a mesma chave e usa pra modelar uma borda do cano. Para a outra borda, ele usa o molde que ele achou dentro da caixinha.
+Essa caixinha que ele destrancou não tem mais nada, então ele deixa ela de lado. Pega a outra, que tem mais coisa dentro. O Zé ainda vai modelar um cano pro Jão, o chaveiro. Sendo um verdadeiro artista, pega a mesma chave e usa pra modelar uma borda do cano. Para a outra borda, ele usa o molde que ele achou dentro da caixinha.
 
-Finalmente, o Zé pega a foto que estava dentro da caixinha aberta. Ela mostra o lugar que o Fã gostaria que seu cano estivesse. O Zé encontra este lugar dentro do seu quarto, e coloca o cano que ele acabou de modelar lá.
+A caixinha aberta ainda tem uma coisa dentro, então ele pega ela. Lá ainda tem uma foto que mostra o lugar que o Jão, o chaveiro, gostaria que seu cano estivesse. O Zé encontra este lugar dentro do seu quarto, e coloca o cano que ele acabou de modelar lá.
 
 Ufa! Isso é bastante coisa para absorver!
 Olha, sem pressa..
@@ -36,35 +53,35 @@ Então é a hora de tentarmos refletir sobre algumas questões. Se parecer difí
 
 Vamos lá..
 
-Primeiro: O cano que antecede o cano do Fã tem algo de especial? O quê? Ou então, se o Zé tentasse colocar em qualquer outro lugar, daria sempre certo? pq?
+Primeiro: O cano que antecede o cano do Jão, o chaveiro, tem algo de especial? O quê? Ou então, se o Zé tentasse colocar o cano em qualquer outro lugar, daria sempre certo? pq?
 
 Segundo: O Zé chega a conferir os itens da caixinha aberta de acordo com a foto que fica dentro da caixinha trancada. Pra quê? Se ele não fizesse isso, quais seriam os riscos?
 
-Terceiro: Sabendo como o Zé utiliza os itens das caixinhas, como o Fã modelou o molde que enviou na caixinha aberta? Suponha que ele tinha a intenção de fazer, posteriormente, um segundo pedido, para que um novo cano fosse adicionado após o cano do primeiro pedido.
+Terceiro: Sabendo como o Zé utiliza os itens das caixinhas, como o Jão, o chaveiro, modelou o molde que enviou na caixinha aberta? Suponha que ele tinha a intenção de fazer, posteriormente, um segundo pedido, para que um novo cano fosse adicionado na ponta do cano do primeiro pedido.
 
 São só estes três pontos. Eles te ajudarão a se esforçar para organizar estes objetos e procedimentos que usamos.
 
 TODO:
 
-mineração
-- minerar ouro e botar pra derreter;
-- - sorte em conseguir minerar ouro;
-- - enfincar um novo cano no caldeirão;
-- - ouro nos canos derrete e continua escorrendo, para o último cano de cada ponta;
+mineração:
+- minerar uma pedra de ouro e botar pra derreter.
+-- tem que ter sorte em conseguir. Pode depender também da mina escolhida, d apicareta escolhida e do "canto específico" escolhido.
+-- pode enfiar um cano novo no caldeirão (coinbase).
+-- este novo ouro derretido no caldeirão escorre até os últimos canos da floresta. Os últimos podem estar tampados então o ouro não vasa.
+--- o ouro esfria e endurece, fixando/grudando os últimos canos adicionados aos anteriores.
 
-quartinho das lembranças
-- empilhar as caixinhas dos vários pedidos; empacotar elas;
--- empilhar os pacotes também;
+cabeçalho do bloco:
+> entra o hash (uma ligação/conexão física) com o cabeçalho do bloco anterior.
+> bota as fotos das novas caixinhas abertas lado-a-lado e tirar uma foto delas todas (raíz markle).
+> um número aleatório que seria difícil de descobrir mas fácil de verificar que é um número que "valida o cabeçalho do bloco". 
+> O cabeçalho válido tem um hash válido, que obedece alguma regra específica. Poderia ter uma conexão física de saída específica, ou sei lá. TODO: distorcer isso até que se traduza em "achar uma pedra de ouro na mina", talvez "uma mina específica, num canto específico, com uma picareta específica"?
 
-sala da casa
-- imaginação do Zé
--- pode falar para outras pessoas, daí elas podem imaginar a mesma coisa se quiserem;
---- enviar o último pacote;
--- pode mudar sua própria imaginação de acordo com a das outras pessoas;
---- receber o último pacote;
+Corpo do bloco:
+> as caixinhas abertas em si. É como se fosse um varal, onde o corpo do bloco é uma peça de roupa e os prendedores são os cabeçalhos, que consegue prender o corpo numa "cadeia" (linha do varal). Só que os próprios prendedores é que formam uma cadeia. 
+>> Os últimos prendedores mudariam de forma se a roupa presa nele mudar, ou se os prendedores anteriores mudarem.
 
-
-falar sobre o gasto duplo -> da ordem das caixinhas;
-
-falar sobre o problema dos generais -> do empacotamento das caixinhas;
-- prova de trabalho.. sem metáfora ainda
+Quarto existe dentro da imaginação do Zé
+Falta dizer isso do quarto. Que existem outros como o Zé, que podem imaginar exatamente a mesma coisa que ele, basta que se comuniquem e cada um decida fazê-lo.
+Excplicar o problema do gasto duplo -> necessidade de ordenação das caixinhas.
+Explicar o problema dos generais bizantinos -> necessidade de chunks discretos das caixinhas (cada peça de varal), e do tempo provavelmente não-instantâneo de criação destes chuncks (proof of work)
+Deve ser rápido para alguém rever as ações do Zé, para poder imaginar as mesmas coisas.
