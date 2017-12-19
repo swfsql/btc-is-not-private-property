@@ -1,46 +1,56 @@
 # Definition
 
-Bitcoin hodls is a hodl quantity that a given unspent bitcoin transaction output has. It does not require a code fork, nor a data change over the blockchain data. It's simply a new (additive) subjective perspective over the blockchain, particularly over the transaction-chains hidden inside of it. At most, wallets could be adapted (featured) to show how many Bitcoin hodls it's user (or any address) has.
+Bitcoin hodls is a hodl quantity that a given unspent bitcoin transaction output has. It requires a wallet soft-fork and some analysis over the blockchain data, particularly over the transaction-chains hidden inside of it - then the user's hodl units (and their price) could be optionally shown.
 
-# Creation
+# Creation function
 
-A hodl is produced when a user locks (timelock) their own unspent transaction outputs. He forbids himself of transfering it, thus, a hodler for certain. For each mined block that happens during the certain hodling period, each locked satoshi procudes a hodl.
+A hodl is produced when a user timelocks their own unspent transaction outputs - he forbids himself of transfering it, thus the unit name. From that satoshi ammount and (block)time duration, some hodl quantity is created according to some function.
+The function (satoshi: i64, duration: u64) => satoshi * duration/2016u64 looks simple enought to me (where 2016 is the bitcoin's dificulty's recalculation cycle period; the return value could be u128 bits).
 
 # Explanation
 
 Pieces of gold may be pure or diluted, metals may be bright and colored or grey, batteries may be charged or empty, tuna may be fat or slim, and game characters may be experienced or a newbie. We can apply the same kind of concept in various ways into bitcoin, and one of those is the result (or appearance) of the hodl quantity.
-Just like gold purity, it's part of the piece's characteristics. Sure players aren't required to not ignore any characteristic they want to. But again, just like gold purity, the hodl quantity is one characteristic - like a "physical" one -  that does exists, whether we choose to ignore it or not. This is because all value is subjective, and bitcoin must be, entirely, be reasoned about (subjectively interpreted) - or it's nothing more than numbers at random, they have no meaning within themselves.
+Just like gold purity, it's part of the piece's characteristics. Sure players aren't required to *not ignore* any characteristic they want to. But again, just like gold purity, the hodl quantity is one characteristic - like a "physical" one -  that does exists, whether we choose to ignore it or not. This is because all value is subjective, and bitcoin must be, entirely, be reasoned about (subjectively interpreted) - or it's nothing more than numbers at random that have no meaning within themselves.
+
+So I'll let myself name hodl units as *bitcoin charges*, and timelocking as *charging*.
 
 # Usage
 
-A hodl quantity is attached to each bitcoin transaction's output. For simple init, it's attached to a bitcoin itself. So if I hodl'd (timelocked, in this case) one bitcoin for a block, that bitcoin created 1 hodl*bitcoin*block/(satoshi*block) units (in hodl). If I send you that bitcoin, you've got a bitcoin plus "it's" hodl units. Other transfer usecases are showed later.
+A charge quantity is attached to each bitcoin transaction's output. For simple init, it's on the bitcoin itself. So if I charged one bitcoin for a a difficulty cycle period, that bitcoin has 1 *charge * bitcoin/satoshi* units. If I send you that bitcoin, you've got a bitcoin plus it's charges. Other usecases are discussed later.
 
-## Impact
+## Impact (subjective)
 
-The appearance of hodls fit's well with the hodlers position regarding bitcoin trading. It's also a chance to have this kind of extra valuation from that very positioning. But this is quite subjective.
+The appearance of charges fits well with the hodlers position regarding bitcoin trading. It's also a chance to have this kind of extra valuation from that very positioning.
 
-What is objective though is the possibility of dismissing the homegeonity of bitcoin units. If ever desired by bitcoin users, they may (even only temporarily) increase their subjective price valuation over hodl units in order to fight an eventual and suspeciously strong short positioning of cash settled bitcoin futures beign traded. Those future tardes will start to lose purpose if some of the subjective valuation jumps into bitcoin hodl units. This would make it impossible for a cash settled future market to exist, they'd be forced to use bitcoin itself, and this could be important to the network at some point.
+What is objective though is the possibility of dismissing the homegeonity of bitcoin units. If ever desired by bitcoin users, they may (even only temporarily) increase their subjective price valuation over charge units in order to fight an eventual and suspeciously strong short positioning of cash settled bitcoin futures beign traded. Those future trades will start to lose purpose if some of the subjective valuation jumps into bitcoin charge units. This would make it impossible for a cash settled future market to exist, they'd be forced to use bitcoin itself, and this could, at some point, be important to the network.
 
-In fact, a decision to produce hodl units is a partial "future trade" decision, where you take the price variance risk but get the hodls in return.
+In fact, a decision to charge your bitcoins is a partial "future trade" decision, where you take the price variance risk but get the charged units in return. That is, you may bet the unit's price will be superior to the price of the risk of not being able to move your bitcoins for some time.
 
 ## Lightning Network combination
 
-Since bitcoins in Lightning Networks are locked, depending on the lock type, they may also produce hodl units, so the two could fit well together. You could consider your bitcoins are "charging up" while timelocked in a lightning contract! Isn't that just sweet?
+Since bitcoins in Lightning Networks are timelocked, they may also charge bitcoins, so the two could fit well together. This is why I preffer calling hodls as charges.
 
 ## Other transfer usecases
 
-Well, hodl units aren't really on bitcoins but on unspent transaction inputs/outputs. So if I gave you a bitcoin + 10 hodl units, you may split that bitcoin in half (thus also splitting the hodl units in some way). Also, you may receive bitcoins (as a single unspent output) from various inputs (thus merging inputs means merging hodls in some way).
+Charge units aren't really on bitcoins but on unspent transaction inputs/outputs. So if I gave you a bitcoin + 10 charges, you may split that bitcoin in half (thus also splitting the charges units in some way). Also, you may receive bitcoins (as a single unspent output) from various inputs (thus merging inputs means merging charges in some way).
 
-I think it's sensate and practical, in a given transaction, to sum the hodls of each input, to have the merged hodl quantity, and then to split this merged quantity into each output, proportionally to the bitcoin quantity beign transfered.
-Therefore any bitcoins spent as fees have no hodl quantity attached to it, since it's not formally a transaction's output. If that's the case, miners wouldn't change how they determine which transaction get's confirmed and which doesn't. And it would be crystal clear that this change doesn't regard miners.
+### Transaction function
 
-# helper structure
+For a given transaction, to sum the input charges and then to equally distribute them according to each output satoshi ammount looks simple enought to me. That is, if bitcoins were electrically charged metal balls, you just group them altogether before merging and splitting into the outputs holes (they would end up with the same charge density).
 
-So it could be quite helpful to build a structure layered on top of bitcoin's blockchain data to compute this information. It takes only one iteration and then needs a lightweight synchronization for new blocks - it can also be prunned. So considering this, I assume lot's of bits could be given when storing the hodl units. But I didn't think about linearity (or lack of) of this information representation storage (int vs float kind of question).
+#### Miners
 
-# Calculations and formulas
+1. fee transactions have no charges since they are not an output, so a given transaction bitcoin fee appeal won't be changed;
+2. only them may increase a bitcoin's charge density, when mining a block with a private transaction that uses a desired (high) ammount of fee rate. I expect that a fixed density would be desired for some traders;
+3. some will decide to create create fee-only private transactions. This would fully separate the charges from the bitcoins, but the charges would have nowhere to go. So another cryptocurrency could be created out of that, where it has a charge-only currency and requires some reading over the bitcoin's blockchain data (a parasyte blockchain).
+4. if a charge decrease is desired, negative fee rate could be allowed (hardfork in bitcoin), where the transaction's output comes from the coinbase - so only miners would still be able to do that.
 
-Besides the type of information decision, there is the "timestep" decision of this increase. To prevent any short term locking & unlocking congestionment, perhaps the timestep should be N blocks, such as N=2016 (same as difficulty re-calculation). Also, to incentivate longer ter holders, the hodl quantity could be less than 1.0 for each satoshi (rounded to zero), and gradually reach that 1.0 rate ammount the longer the holding period is. The same bitcoin reward formula dynamic could be used (starts distant from 1.0, but rapdly reaches it in a decreasing positive slope).
-There's no need to calculate for each step (each block). By knowing the first and last blocks during the timelock period, one can just calculate the total ammount of hodl units created. But it's sure usefull to describe the step dynamic.
+So even without a node/miner soft/hardfork, miners still have a (optional) specific function and their user behaviour might be impacted.
+
+# light node
+
+Since the chaining of transactions inputs and outputs must be analysed, initially the full blockchain must be read, but read spent output can be prunned away. So a data structure can be layered on top of the blockchain, containing the unspent output's charges information. So the ~60Mtx (according to https://blockchain.info/charts/utxo-count), would consume ~3GB of information (32B txID, 1B outputID, 4B charges), or a light node.
+
+---
 
 I hope you enjoyed!
