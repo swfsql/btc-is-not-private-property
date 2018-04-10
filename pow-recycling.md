@@ -14,7 +14,7 @@ and then:
 **Jb** -> _JB_ {and that has a public key}  
 _JB_ = _JA_ + _JA'_ {and such public key is also the sum of _JA_ and _JA'_; learned about this magic from mimblewimble}  
 
-Then Joe may mine and target the coinbase to an address that comes from _JB_. Even if he doesn't mine in time, he keeps mining it, until he gets enought PoW required by Std. Or, he still keeps his best PoW form each mining round, and stashes it, until it's enought PoW as a folded sum of PoW iterations. Also, if he has many connected peers, he may spend each mining round to one of his peers (since each would have a different _SA_ or **Ja'**).
+Then Joe may mine and target the coinbase to an address that comes from _JB_. Even if he doesn't mine in time, he keeps mining it, until he gets enought PoW required by Std. Or, he still keeps his best PoW from each mining round, and stashes it, until it's enought PoW as a folded sum of PoW iterations. Also, if he has many connected peers, he may spend each mining round to one of his peers (since each would have a different _SA_ or **Ja'**).
 
 Assuming Joe fails to mine in time, he can still announce Std that round's header, with his best work proof. Since Std has _SA_ or **Ja'**, he also has _JA'_. If they exchanged both _JA_ and _SA_ among each other, Std may verify that _JB_ is indeed _JA_ + _SA_, so it was indeed a work trying to prove to Std (to himself).  
 Joe still has **Jb**, whereas Std doesn't, so Joe's rewards should be safe if he actually mines it.  
